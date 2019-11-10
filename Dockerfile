@@ -1,4 +1,4 @@
-FROM debian
+FROM docker.io/debian
 RUN apt-get update && apt-get install -y jq curl procps ttf-dejavu openjdk-11-jre x11-xserver-utils 
 
 RUN useradd -d /minecraft -s /bin/sh minecraft
