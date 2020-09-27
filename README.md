@@ -1,5 +1,5 @@
 # build:
-`docker build -t tlauncher github.com/kzwg63tf/docker-tlauncher`
+`docker build -t tlauncher github.com/dm9pZCAq/docker-tlauncher`
 
 # preparation:
 `xhost +local:docker` allow docker to open window
